@@ -1,0 +1,229 @@
+.container{
+    padding: 5em 0;
+}
+
+.pleaseChooseAnOption{
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.6em !important;
+    min-height: 3.33em;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 1.2em 1em;
+    margin-bottom: 5px;
+}
+
+.orgin-destination-airport-desc{
+    background-color: #EAEAEA;
+    padding: 19px 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.originAirportClass {
+     background-color: #545454;
+  color: white;
+  font-size: 1.5em;
+}
+
+.getBoardingDocumentBottom{
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.getOneMobileSection{
+    float: left;
+    width: 100%;
+}
+
+.aztecIcon{
+    object-fit: none;
+    object-position:-260px -248px;
+    height: 26px;
+    width: 26px;
+    float: left;
+    margin-top: 15px;
+}
+
+.getOneMobile{
+    color: #191919;
+    font-size: 1.250em;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    margin-top: 20px;
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    letter-spacing: -0.067em;
+}
+
+.countryCode{
+    color: #191919;
+    font-size: 0.833em;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.border{
+    border-right: #D6D6D6 1px solid !important;
+}
+
+.countryCodeDropDown{
+    border: 1px solid #d1c7ac;
+    border-radius: 3px;
+    color: #191919;
+    padding: 6px 2px !important;
+    width: 245px;
+}
+
+.andAreaCode{
+    color: #191919;
+    font-size: 0.833em;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.andAreaCodeTextBox{
+    border: 1px solid #d1c7ac;
+    padding: 6px 3px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.alsoSendToPrinterSection{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 4em;
+}
+
+.alsoSendToPrinterCheckBoxDiv{
+    float: left;
+}
+
+.alsoSendToPrinterCheckBox{
+
+}
+
+.alsoSendToPrinter{
+    color: #191919;
+    float: left;
+    margin-left: 5px;
+}
+
+.sendToMobileSection, .printSection, .doneSection{
+    float: left;
+}
+
+.sendToMobile, .print, .done{
+    font-size: 1.083em !important;
+    font-weight: bold !important;
+    padding: 5px 10px;
+    min-width: 8.33em;
+    height: 3em;
+}
+
+.backgroundFlightInfo{
+    background-color: #EAEAEA;
+}
+
+.adsContainer{
+    min-height: 710px;
+    padding-top: 10px;
+    margin-top: -3px;
+    overflow: hidden;
+}
+
+.printOnePassNowSection{
+    float: left;
+    width: 100%;
+}
+
+.printIcon{
+    object-fit: none;
+    object-position: -218px -89px;
+    height: 23px;
+    width: 26px;
+    float: left;
+    margin-top: 15px;
+}
+
+.printOnePassNow{
+    color: #191919;
+    font-size: 1.250em;
+    font-weight: bold !important;
+    margin-top: 20px;
+    float: left;
+    margin-left: 15px;
+    letter-spacing: -0.067em;
+}
+
+.oneOfOne{
+    font-size: 1.083em;
+    font-weight: bold;
+    color: #191919 !important;
+    margin-bottom: 11px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.boardingDocsDisplayDiv{
+    background: url(/assets/boardingdocument.png);
+    width: 250px;
+    height: 125px;
+    float: left;
+    margin: 2em 4em;
+}
+
+.illGetMyDocumentsLaterSection{
+    float: left;
+    width: 100%;
+}
+
+.clockIcon{
+    object-fit: none;
+    object-position: -117px -274px;
+    height: 28px;
+    width: 28px;
+    float: left;
+    margin-top: 15px;
+}
+
+.illGetMyDocumentsLater{
+    color: #191919;
+    font-size: 1.250em;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    margin-top: 20px;
+    display: inline;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    letter-spacing: -0.067em;
+}
+
+.illGetMyDocumentsLaterUnOrderList{
+    float: left;
+    width: 100%;
+    margin: 1em 0 9.7em 0;
+}
+
+.illGetMyDocumentsLaterUnOrderList ul{
+    padding-left: 3px !important;
+    margin: 0;
+}
+
+.illGetMyDocumentsLaterUnOrderList ul li{
+    list-style-type: disc;
+    margin-left: 15px;
+    font-size: 1.083em;
+    color: #191919;
+    line-height: 22px;
+}

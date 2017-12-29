@@ -1,0 +1,33 @@
+.breadcrumb-pipe{
+    border-style: solid;
+    border-width: 15px 2px 0px 0px;
+    padding-top: 10px;
+    margin-right: 1px;
+    height: 25px;
+    float: left;
+    color: #dedede;
+}
+.reviewTripOne{
+    font-size: 1.75em;
+    padding: 5px 5px;
+    float: left;
+    color: #dedede;
+}
+.reviewTrip{
+    font-size: 0.93em;
+    padding: 5px 5px;
+    float: left;
+    color: #dedede;
+}
+.getBoardingDocumentTwo{
+    font-size: 1.75em;
+    padding: 5px 5px;
+    float: left;
+    color: #dedede;
+}
+.getBoardingDocument{
+    font-size: 0.93em;
+    padding: 5px 5px;
+    float: left;
+    color: #dedede;
+}

@@ -1,0 +1,159 @@
+<div class="container">
+  <app-main-content-header></app-main-content-header>
+  <div class="row paddingLeft paddingRight flightDetailsSection">
+    <div class="col-md-4">
+       <app-orgin-destination-airport-desc></app-orgin-destination-airport-desc>
+       <div class="flightConfirmationDetails"><app-date-format [dateFormat]="'dd MMM yyyy'"></app-date-format> {{confirmation | uppercase}} {{recordLocatorId}}</div>
+    </div>
+    <div class="col-md-6">
+        <a href="#" class="changeFlight">{{checkInTitle}}</a>
+    </div>
+    <div class="col-md-2">
+        <div class="nextButtonSection">
+            <button (click)="onSubmit()" class="button nextButton">{{next | uppercase}}</button>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 flightBasket">
+        <div>
+            <div class="flightsTop">{{flights | uppercase}}</div>
+            <div class="flightsMiddle">
+                <app-date-format [dateFormat]="'dd MMM yyyy'"></app-date-format>
+                <div class="orginDestinationFlightNumber">
+                    <div class="originAirport">{{originAirport}}</div>
+                    <div class="playRed"><span class="aria-offscreen">to</span></div>
+                    <div class="destinationAirport">{{destinationAirport}}</div> 
+                    <div class="flightNumber">: {{flightNumber}}</div>
+                </div>
+                <div class="orginDestinationDesc">
+                    {{originAirportDesc}} {{flightsTo}} {{destinationAirportDesc}}
+                </div>
+                <div class="flightStatus">
+                    {{flightStatus | uppercase}}: <span class="flightStatusOnTime">{{onTime}}</span>
+                </div>
+                <div class="departing">
+                    <div class="depart">{{depart | uppercase}}:</div> <div class="departTime">{{departTime}}</div>
+                </div>
+                <div class="arrivaling">
+                    <div class="arrive">{{arrive | uppercase}}:</div> <div class="arriveTime">{{arriveTime}}</div>
+                </div>
+                <div class="upgradeRequested">
+                    {{upgradeRequested}}
+                </div>
+                <div>
+                    <hr class="flightSummaryRuler">
+                </div>
+                <div class="inFlightServiceMessage">
+                    {{inFlightServiceMessage}}
+                </div>
+            </div>
+            <div class="flightsBottom">
+                <a class="flightAirportDetails" id="detailsTopLink_0" href="#" aria-expanded="false">
+                    <span id="detailsTop_0" class="fontLink">
+                        <span class="playRightBlue"></span>
+                        <span class="aria-offscreen">{{flightAirportDetails}}</span>
+                        <span aria-hidden="true">
+                            {{flightAirportDetails}}
+                        </span>
+                    </span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="row passengerDetailsSection">
+            <div class="col-md-4 nopadding">
+                <div class="passengersTop passengers">{{passengers | uppercase}}</div>
+                <div class="passengersBottom">
+                    <div class="firstNameLastName">{{firstName | uppercase}} {{lastName | uppercase}}</div>
+                    <div class="addFrequentFlyer">{{addFrequentFlyer}}</div>
+                </div>
+            </div>
+            <div class="col-md-4 nopadding">
+                <div class="seatsTop seats">{{seats | uppercase}}</div>
+                <div class="seatsBottom">
+                    <div class="seatNumChangeSeat">
+                        <div class="seatNum">{{seatNum}}</div> 
+                        <div class="changeSeat">{{changeSeat}}</div>
+                    </div>
+                    <div class="mainCabin">{{mainCabinL}}</div>
+                    <div class="originDestinationAirportCode">
+                        <div class="originAirportCode">{{originAirport}}</div> 
+                        <div class="playGray"><span class="aria-offscreen">to</span></div> 
+                        <div class="destinationAirportCode">{{destinationAirport}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-7 nopadding">
+                        <div class="tripExtrasTop tripExtras">{{tripExtras}}</div>
+                        <div class="tripExtrasBottom">
+                            <div class="addTripExtras">{{addTripExtras | uppercase}}</div>
+                            <div class="addTripExtrasSection">
+                                 <img class="addExtrasButton" src="{{tripProtectionImg}}" alt="{{addTripExtras}}">
+                                 <div class="addTripExtrasLink">{{addTripExtras}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 paddingLeft">
+                        <div class="bagsTop bags">{{bags}}</div>
+                        <div class="bagsBottom">
+                            <div class="addBagsSection">
+                                <div class="addBagsCount">0</div>
+                                <img class="bagsButton" src="{{tripProtectionImg}}" alt="{{addBags}}">
+                            </div>
+                            <div class="addBags">{{addBags}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 nopadding">
+                <div class="serviceRequestSection">
+                    <div class="serviceRequestSectionInner">
+                        <div class="serviceRequest">{{serviceRequest | uppercase}}</div>
+                        <div class="requestServiceMessage">{{requestServiceMessage}}</div>
+                        <a href="#" class="addRequest">{{addRequest}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tripProtectionSection">
+                    <div class="tripProtectionSectionInner">
+                        <div class="tripProtectionImgSection">
+                            <img class="tripProtectionImg" src="{{tripProtectionImg}}" alt="{{tripProtection}}">
+                        </div>
+                        <div class="tripProtection">{{tripProtection | uppercase}}</div>
+                        <div class="forCurrencyFareSection">
+                            <div class="for">{{for | uppercase}}</div>
+                            <div class="currency">{{currency}}</div>
+                            <div class="fare">{{fare}}</div>
+                        </div>
+                        <div class="peaceOfMind">{{peaceOfMind}}</div>
+                        <div class="buyNow">{{buyNow}}</div>
+                        <div class="termsAndConditions">{{termsAndConditions}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 paddingLeft">
+                <div class="earnBonusMilesSection">
+                    <div class="earnBonusMilesSectionInner">
+                        <div class="earnBonusMilesImgSection">
+                            <img class="earnBonusMilesImg" src="{{earnBonusMilesImg}}" alt="{{earnBonusMiles}}">
+                        </div>
+                        <div class="earnBonusMiles">{{earnBonusMiles}}</div>
+                        <div class="earnBonusMilesMessage">{{earnBonusMilesMessage}}</div>
+                        <div class="applyNow">{{applyNow}}</div>  
+                        <div class="termsApply">{{termsApply}}</div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,100 @@
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <app-check-in-title></app-check-in-title>
+      </div>
+  </div>
+  <div class="row nopadding">
+    <div class="col-md-12 youAreNowCheckedInSection">
+      <div class="row">
+        <div class="col-md-10">
+            <div class="youAreNowCheckedIn">{{youAreNowCheckedIn | uppercase}}</div>
+        </div>
+        <div class="col-md-2">
+            <div class="goToMyTripsSection">
+                <button [routerLink]="['/reviewTrip']" value="HTML" class="button goToMyTrips">{{goToMyTrips | uppercase}}</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row nopadding">
+    <div class="col-md-12 getYourBoardingPassSection">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="getYourBoardingPass">{{getYourBoardingPass}}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <div class="medallianUpgradeRequested">{{medallianUpgradeRequested}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row nopadding">
+    <div class="col-md-12 orgin-destination-airport-desc">
+        <div class="row">
+            <div class="col-md-4">
+                <app-orgin-destination-airport-desc [originAirportClass]="originAirportClass"></app-orgin-destination-airport-desc>
+            </div>
+            <div class="col-md-8">
+                <app-date-format [dateFormat]="'dd MMM yyyy'"></app-date-format>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <div class="row nopadding">
+    <div class="col-md-12 checkInConfiramtionBottom">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="yourFlightLeaves">
+                Your flight leaves {{originAirportDesc}} at {{departTime}} and arrives in {{destinationAirportDesc}} at {{arriveTime}}
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <div class="pleaseCheckDelta">{{pleaseCheckDelta}}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+            <div class="nextSteps">{{nextSteps | uppercase}}</div>
+              <div class="nextStepsBottom">
+                <div class="getToTheAirport">{{getToTheAirport  | uppercase}}</div>
+                <div class="recommendArrivalTime">{{recommendArrivalTime}}</div>
+                <div class="forFlights">{{forFlights}}</div>
+                <div class="dropYourBag">{{dropYourBag | uppercase}}</div>
+                <div class="alreadyCheckedBags">{{alreadyCheckedBags}}</div>
+                <div class="stillNeed">{{stillNeed}}</div>
+                <div class="proceedToSecurity">{{proceedToSecurity  | uppercase}}</div>
+                <div class="proceedToSecurityWithBoarding">{{proceedToSecurityWithBoarding}}</div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="moreInfo">{{moreInfo | uppercase}}</div>
+          <div class="tsaGuideLinesSection"><a class="tsaGuideLines" href="{{tsaGuideLinesLink}}">{{tsaGuideLines}}</a></div>
+          <div class="airportInformationSection"><a class="airportInformation" href="{{airportInftsaGuideLinesormationLink}}">{{airportInformation}}</a></div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+    <div class="row nopadding">
+        <div class="col-md-12 backgroundFlightInfo">
+            <div class="row">
+                <div class="adsContainer"></div>
+            </div>
+        </div>
+    </div>
+
+</div>

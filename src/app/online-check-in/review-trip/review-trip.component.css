@@ -1,0 +1,635 @@
+.container{
+    padding: 5em 0;
+}
+
+
+.flightDetailsSection{
+    margin: 20px 0 10px 0;
+    min-height: 3.33em;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 1.5em 1.5em;
+}
+
+.changeFlight{
+    color: #3169bb;
+    font-weight: bold !important;
+    font-size: 1.25em;
+}
+.flightConfirmationDetails{
+    font-family: "Open Sans", "Trebuchet MS", "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, Tahoma, Sans-Serif;
+    color: #191919 !important;
+    font-size: 1.25em;
+    font-weight: bold !important;
+    float: left;
+    margin-top: 15px;
+}
+
+.nextButtonSection{
+    padding: 5px 10px;
+    float: right;
+}
+
+.nextButton{
+    height: 3em;
+    min-width: 8.33em;
+}
+/*************************************************/
+
+.flightsTop{
+    background-color: #EAEAEA;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    color: #191919;
+    font-weight: bold;
+    font-size: 1.25em;
+    line-height: 20px;
+    padding: 13px 15px;
+}
+
+.flightsMiddle{
+    background-color: #FFFFFF;
+    padding: 13px 13px;
+    float: left;
+    min-width: 21.84em;
+}
+.orginDestinationFlightNumber{
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+}
+
+.originAirport{
+    color: #252d44;
+    font-size: 1.833em;
+    float: left;
+    margin-right: 5px;
+}
+.playRed{
+    float: left;
+    position: relative;
+    background-position: -20px -13px;
+    height: 11px;
+    width: 6px;
+    background-image: url(https://vocii31-app.delta.com/PCCOciWeb/images/pcc-icons-s6ac82afa86.png);
+    background-repeat: no-repeat;
+}
+.destinationAirport{
+    color: #252d44;
+    font-size: 1.833em;
+    float: left;
+    margin-left: 3px;
+}
+.flightNumber{
+    float: left;
+    font-weight: 300;
+    color: #191919;
+    font-size: 1.833em;
+    font-style: normal;
+}
+
+.orginDestinationDesc{
+    float: left;
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 0.91em;
+    margin-top: 5px;
+}
+
+.flightStatus{
+    color: #191919;
+    font-weight: bold !important;
+    font-size: 0.83em;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+.flightStatusOnTime{
+    font-weight: bold !important;
+    color: #02770C;
+}
+
+.departing{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.depart{
+    float: left;
+    font-weight: normal !important;
+    color: #191919;
+    margin-right: 4em;
+}
+.departTime{
+    float: left;
+    font-weight: bold !important;
+    color: #191919;
+}
+.arrivaling{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.arrive{
+    float: left;
+    font-weight: normal !important;
+    color: #191919;
+    margin-right: 4em;
+}
+.arriveTime{
+    float: left;
+    font-weight: bold !important;
+    color: #191919;
+}
+.flightSummaryRuler{
+    background-color: #D6D6D6;
+    border: 0 none;
+    color: #D6D6D6;
+    height: 0.5px;
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
+    width: 95%;
+    float: left;
+}
+
+.upgradeRequested{
+    color: #3169bb;
+    font-weight: bold !important;
+    font-size: 1em;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.inFlightServiceMessage{
+    font-weight: bold !important;
+    font-size: 0.83em;
+    color: #191919;
+    line-height: 10px;
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.flightsBottom{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #EAEAEA;
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+
+.flightAirportDetails{
+    font-weight: bold !important;
+    color: #3169BB;
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 2px 12px;
+    float: left;
+}
+
+.playRightBlue{
+    position: relative;
+    background-position: -170px -16px;
+    height: 13px;
+    width: 9px;
+    background-image: url(https://vocii31-app.delta.com/PCCOciWeb/images/pcc-icons-s6ac82afa86.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/**************************************************************/
+
+.passengerDetailsSection{
+    margin-bottom: 10px;
+}
+
+.passengersTop{
+    float: left;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.passengersBottom{
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-right: #D6D6D6 1px solid;
+    padding: 1.33em;
+    height: 7em;
+}
+
+.passengers{
+    padding-left: 1.33em;
+    text-align: left;
+    border-right: #D6D6D6 1px solid;
+    border-bottom: #D6D6D6 1px solid;
+    border-top-left-radius: 4px !important;
+    -moz-border-top-left-radius: 4px !important;
+    -webkit-border-top-left-radius: 4px !important;
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.25em;
+    height: 3.13em;
+    padding-top: 1em;
+}
+
+.firstNameLastName{
+    color: #191919;
+    font-size: 1.83em;
+}
+
+.addFrequentFlyer{
+    color: #3169BB !important;
+    font-size: 1.08em;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+.seatsTop{
+    float: left;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.seats{
+    padding-left: 1.33em;
+    text-align: left;
+    border-right: #D6D6D6 1px solid;
+    border-bottom: #D6D6D6 1px solid;
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.25em;
+    height: 3.13em;
+    padding-top: 1em;
+}
+
+.seatsBottom{
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-right: #D6D6D6 1px solid;
+    padding: 1.33em;
+    height: 7em;
+}
+
+.seatNumChangeSeat{
+    float: left;
+    width: 100%;
+}
+
+.seatNum{
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.75em;
+    float: left;
+}
+
+.changeSeat{
+    font-weight: 600;
+    color: #3169BB !important;
+    font-size: 1.08em;
+    cursor: pointer;
+    float: left;
+}
+
+.mainCabin{
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.16em;
+    float: left;
+    width: 100%;
+    margin: 5px 0 3px 0;
+}
+
+.originDestinationAirportCode{
+
+}
+
+.originAirportCode{
+    color: #191919;
+    font-size: 1em;
+    float: left;
+    margin-right: 5px;
+}
+
+.destinationAirportCode{
+    color: #191919;
+    font-size: 1em;
+    float: left;
+    margin-left: 3px;
+}
+
+.tripExtrasTop{
+    float: left;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.tripExtras{
+    padding-left: 1.33em;
+    text-align: left;
+    border-right: #D6D6D6 1px solid;
+    border-bottom: #D6D6D6 1px solid;
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.25em;
+    height: 3.13em;
+    padding-top: 1em;
+}
+
+.tripExtrasBottom{
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-right: #D6D6D6 1px solid;
+    padding: 1.33em;
+    height: 7em;
+}
+
+.addTripExtras{
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.08em;
+}
+
+.addTripExtrasSection{
+    float: left;
+    margin-top: 5px;
+}
+
+.addExtrasButton{
+    object-fit: none;
+    object-position: -49px -50px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+
+.addTripExtrasLink{
+    color: #3169BB !important;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 0.8em;
+    float: left;
+}
+
+.bagsTop{
+    float: left;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+.bags{
+    padding-left: 1.33em;
+    text-align: left;
+    border-right: #D6D6D6 1px solid;
+    border-bottom: #D6D6D6 1px solid;
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.25em;
+    height: 3.13em;
+    padding-top: 1em;
+}
+
+.bagsBottom{
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-right: #D6D6D6 1px solid;
+    padding: 1.33em;
+    height: 7em;
+}
+
+.addBagsCount{
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.75em;
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.addBagsSection{
+    float: left;
+    width: 100%;
+}
+
+.bagsButton{
+    object-fit: none;
+    object-position: -72px -144px;
+    height: 22px;
+    width: 27px;
+}
+
+.addBags{
+    color: #3169BB !important;
+    font-size: 1.08em;
+    cursor: pointer;
+    float: left;
+    margin-top: 5px;
+}
+
+/**********************************************************************/
+
+
+.serviceRequestSection{
+    padding: 0.41em;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.serviceRequestSectionInner{
+    padding: 6.8em 0;
+    background-color: #EAEAEA;
+    min-height: 21em
+}
+
+.serviceRequest{
+    padding-bottom: 0.85em;
+    padding-left: 0.8em;
+    font-weight: bold !important;
+    color: #191919;
+    font-size: 1.7em;
+}
+
+.requestServiceMessage{
+    color: #191919;
+    font-size: 1.08em;
+    font-weight: bold !important;
+    margin-top: -3px;
+    padding-bottom: 0.83em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.addRequest{
+    color: #3169BB !important;
+    font-size: 1.08em;
+    cursor: pointer;
+    padding-left: 1.25em;
+    padding-bottom: 1.25em;
+}
+
+.tripProtectionSection{
+    padding: 0.41em;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+}
+
+.tripProtectionSectionInner{
+    background-color: #EAEAEA;
+    float: left;
+    min-height: 21em
+}
+
+.tripProtectionImgSection{
+    float: left;
+    margin: 1em;
+}
+
+.tripProtectionImg{
+    object-fit: none;
+    object-position: 0 -985px;
+    height: 88px;
+    width: 218px;
+}
+
+.tripProtection{
+    color: #191919;
+    padding-left: 12px;
+    padding-right: 10px;
+    width: 6.6em;
+    margin-bottom: 0.5em;
+    margin-top: 0.6em;
+    font-size: 1.7em;
+    float: left;
+    line-height: 24px;
+    margin-right: 2em;
+}
+
+.forCurrencyFareSection{
+    float: left;
+    margin-top: 15px;
+}
+
+.for{
+    color: #191919;
+    font-size: 0.83em;
+    font-weight: bold !important;
+    margin-top: -5px;
+    margin-left: -22px;
+    float: left;
+}
+
+.currency{
+    font-size: 1.67em !important;
+    color: #191919;
+    margin-top: -2px;
+    float: left;
+}
+
+.fare{
+    color: #191919;
+    font-size: 2.8em;
+    font-weight: bold !important;
+    float: left;
+}
+
+.peaceOfMind{
+    color: #191919;
+    font-size: 1.08em;
+    font-weight: bold !important;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    float: left;
+}
+
+.buyNow{
+    color: #3169BB !important;
+    font-size: 1.08em;
+    cursor: pointer;
+    float: left;
+    padding-left: 12px;
+}
+
+.termsAndConditions{
+    color: #191919;
+    font-size: 0.75em;
+    font-weight: bold !important;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-right: 12px;
+    float: right;
+}
+
+.earnBonusMilesSection{
+    padding: 0.41em;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+}
+
+.earnBonusMilesSectionInner{
+    background-color: #f5ebcb;
+    float: left;
+    padding: 1.7em 0;
+    min-height: 21em
+}
+
+.earnBonusMilesImgSection{
+    float: left;
+    margin: 1em 6.5em;
+    width: 100px;
+    height: 75px;
+}
+
+.earnBonusMilesImg{
+    width: 100%;
+    height: auto;
+}
+
+.earnBonusMiles{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 0 10px 10px;
+    color: #191919;
+    font-weight: 700;
+    float: left;
+}
+
+.earnBonusMilesMessage{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 10px 10px 10px;
+    color: #191919;
+    float: left;
+}
+
+.applyNow{
+    font-weight: 600;
+    color: #3169BB;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.termsApply{
+    float: right;
+    margin: 10px 10px 7px 0;
+    font-size: 11px;
+    color: #191919;
+}

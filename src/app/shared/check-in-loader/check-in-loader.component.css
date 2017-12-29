@@ -1,0 +1,30 @@
+.container{
+    padding: 5em 0;
+}
+
+.checkInLoaderSection{
+    background: #f3f3f3;
+    padding: 5em 0;
+}
+
+.checkInLoadeIMG{
+    background: url(/assets/plane-loading.gif);
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 3em 0
+}
+
+.justAMoment{
+    font-size: 49px;
+    float: left;
+    margin: 22px 0;
+    padding-left: 15px;
+    line-height: 1em;
+}
+
+.findingYourTripDetails{
+    float: left;
+    font-size: 25px;
+    margin-left: 3em;
+}

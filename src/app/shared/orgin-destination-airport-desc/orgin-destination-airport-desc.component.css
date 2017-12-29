@@ -1,0 +1,12 @@
+.originAirportDesc{
+    color: #191919 !important;
+    float: left;
+    font-size: 1.7em;
+    margin-right: 5px
+}
+.destinationAirportDesc{
+    color: #191919 !important;
+    float: left;
+    font-size: 1.7em;
+    margin-left: 3px;
+}

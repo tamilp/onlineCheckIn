@@ -1,0 +1,81 @@
+<div class="container">
+  <app-main-content-header></app-main-content-header>
+  <br><br>
+  <div class="row">
+      <div class="col-md-12">
+          <div class="pleaseChooseAnOption">{{pleaseChooseAnOption | uppercase}}</div>
+      </div>
+  </div>
+  <div class="row nopadding">
+    <div class="col-md-12 orgin-destination-airport-desc">
+        <div class="row">
+            <div class="col-md-4">
+                <app-orgin-destination-airport-desc [originAirportClass]="originAirportClass"></app-orgin-destination-airport-desc>
+            </div>
+            <div class="col-md-8">
+                <app-date-format [dateFormat]="'dd MMM yyyy'"></app-date-format>
+            </div>
+        </div>
+    </div>
+  </div>
+    <div class="row nopadding">
+        <div class="col-md-12 getBoardingDocumentBottom">
+            <div class="row">
+                <div class="col-md-4 border">
+                    <div class="getOneMobileSection">
+                        <img class="aztecIcon" src="{{tripProtectionImg}}" alt="{{getOneMobile}}">
+                        <div class="getOneMobile">{{getOneMobile}}</div>
+                    </div>
+                    <div class="countryCode">{{countryCode | uppercase}}</div>
+                    <select class="countryCodeDropDown">
+                        <option>United States (+1)</option>
+                    </select>
+                    <div class="andAreaCode">{{andAreaCode}}</div>
+                    <div><input type="text" name="" value="5555-333-7777" class="andAreaCodeTextBox"></div>
+                    <div class="alsoSendToPrinterSection">
+                        <div class="alsoSendToPrinterCheckBoxDiv"><input type="checkbox" name="vehicle" value="Bike" class="alsoSendToPrinterCheckBox"></div>
+                        <div class="alsoSendToPrinter">{{alsoSendToPrinter}}</div>
+                    </div>
+                    <div class="sendToMobileSection">
+                        <button name="subject" type="submit" value="HTML" class="button sendToMobile">{{sendToMobile | uppercase}}</button>
+                    </div>
+                </div>
+                <div class="col-md-4 border">
+                <div class="printOnePassNowSection">
+                    <img class="printIcon" src="{{tripProtectionImg}}" alt="{{printOnePassNow}}">
+                    <div class="printOnePassNow">{{printOnePassNow | uppercase}}</div>
+                </div>
+                <div class="boardingDocsDisplayDiv"></div>
+                <div class="oneOfOne">1 of 1</div>
+                <div class="printSection">
+                    <button name="subject" type="submit" value="HTML" class="button print">{{print | uppercase}}</button>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="illGetMyDocumentsLaterSection">
+                        <img class="clockIcon" src="{{tripProtectionImg}}" alt="{{illGetMyDocumentsLater}}">
+                        <div class="illGetMyDocumentsLater">{{illGetMyDocumentsLater}}</div>
+                    </div>
+                    <div class="illGetMyDocumentsLaterUnOrderList">
+                        <ul>
+                            <li>{{youCanComeBackLater}}</li>
+                            <li>{{printYourBoardingPass}}</li>
+                            <li>{{viewInTheFlyDeltaApp}}</li>
+                        </ul>
+                    </div>
+                    <div class="doneSection">
+                        <button (click)="onSubmit()" value="HTML" class="button done">{{done | uppercase}}</button>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="row nopadding">
+        <div class="col-md-12 backgroundFlightInfo">
+            <div class="row">
+                <div class="adsContainer"></div>
+            </div>
+        </div>
+    </div>
+
+</div>

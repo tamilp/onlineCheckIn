@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #22659c!important;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans","Trebuchet MS",Verdana,Tahoma,Sans-Serif;
+    font-size: .75em;
+    line-height: 16px;
+    height: 100%;
+    color: #191919;
+}
+
+.button{
+    position: relative;
+    background: linear-gradient(to top, #731402 0%, #b21e04 96%, #e01933 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #731402), color-stop(96%, #b21e04), color-stop(100%, #e01933)) !important;
+    background: -webkit-linear-gradient(bottom, #731402 0%, #b21e04 96%, #e01933 100%) !important;
+    border: solid 1px #640202;
+    border-radius: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #EBEBEB;
+    background-color: #751204 !important;
+    cursor: pointer;
+}
+
+.button:focus {
+    box-shadow: 0 0 0.167em 0.25em #78aeda, 0 0 0.167em #78aeda inset;
+    border-radius: 0.167em;
+}
+
+.button:hover {
+    background: linear-gradient(to top, #ad1328 0%, #801503 96%, #400c01 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ad1328), color-stop(96%, #801503), color-stop(100%, #400c01)) !important;
+    background: -webkit-linear-gradient(bottom, #ad1328 0%, #801503 96%, #400c01 100%) !important;
+}
+
+.aria-offscreen{
+    position: absolute !important;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.paddingLeft{
+    padding-left: 0 !important;
+}
+
+.paddingRight{
+    padding-right: 0 !important;
+}
+
+.playGray{
+    background-position: -22px -62px;
+    height: 13px;
+    width: 9px;
+    zoom: 0.9;
+    background-image: url(https://vocii31-app.delta.com/PCCOciWeb/images/pcc-icons-s6ac82afa86.png);
+    background-repeat: no-repeat;
+    float: left;
+}
